@@ -10,7 +10,13 @@ I just collected all the images and the css code and i made them static to the c
 ## Usage
 1. service apache2 start
 2. git clone https://github.com/0xyg3n/fbphish /var/www/html
-3. chmod 777 /var/www/html/*
+3. chmod 777 /var/www/html/* 
+
+
+##Troubleshooting
+
+1. Displaying raw php: sudo apt install php
+2. Not getting victim's input to file: chmod 777 /var/www/html/*
 
 ## Contributing
 1. Fork it!
