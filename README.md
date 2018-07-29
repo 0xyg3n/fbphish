@@ -9,8 +9,8 @@ I just collected all the images and the css code and i made them static to the c
  
 ## Usage
 1. service apache2 start
-2. mv index.html /var/www/html/
-
+2. git clone https://github.com/0xyg3n/fbphish /var/www/html
+3. chmod 777 /var/www/html/*
 
 ## Contributing
 1. Fork it!
@@ -22,7 +22,7 @@ I just collected all the images and the css code and i made them static to the c
 
 ## License
 
-Copyright 2017 0xyg3n
+Copyright 2018 0xyg3n
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
