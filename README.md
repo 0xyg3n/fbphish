@@ -13,7 +13,7 @@ I just collected all the images and the css code and i made them static to the c
 3. `sudo chmod 777 /var/www/html/* `
 
 
-##Troubleshooting
+## Troubleshooting
 
 1. Displaying raw php: sudo apt install php
 2. Not getting victim's input to file: chmod 777 /var/www/html/*
