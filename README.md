@@ -21,7 +21,7 @@
 
 
 * ## Undetected
-The way i coded it with php allows me to use the phishing template and the facebook cannot even detect it so when you access the profile you hooked it will not log you out and ask you to verify your identity because it did not detect that the profile has been phished. 
+> The way i coded it with php allows me to use the phishing template and the facebook cannot even detect it so when you access the profile you hooked it will not log you out and  ask you to verify your identity because it did not detect that the profile has been phished. 
  
 * ## Installation
 
