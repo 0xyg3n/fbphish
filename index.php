@@ -1,4 +1,7 @@
 <?php
+
+//Just in case somebody visits the / directory.
+
 error_reporting(0); // Turn off all error reporting
 $id = $_GET["id"];
 if ($id == "login") {
